@@ -172,4 +172,5 @@ disqusShortname = "yourdiscussshortname"
                 weight = 7
                 url  = "/posts/"
 
-
+# GOOGLE GA
+googleAnalytics: UA-163288755-1
