@@ -6,6 +6,9 @@ theme = "hugo-coder"
 languagecode = "zh-cn"
 defaultcontentlanguage = "zh-cn"
 
+enableRobotsTXT = true
+canonifyURLs = true
+
 paginate = 20
 canonifyurls = true
 
