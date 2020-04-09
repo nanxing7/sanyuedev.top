@@ -1,4 +1,4 @@
-baseurl = "http://www.example.com"
+baseurl = "https://heuristic-torvalds-ab3ee7.netlify.com/"
 title = "johndoe"
 
 theme = "hugo-coder"
