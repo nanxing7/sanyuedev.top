@@ -47,16 +47,17 @@ disqusShortname = "yourdiscussshortname"
     maxSeeAlsoItems = 5
 
     # Custom CSS
-    custom_css = []
+    custom_css = ["/css/main.css"]
 
     # Custom JS
-    custom_js = []
+    custom_js = ["/js/lazysizes.min.js"]
 
-# If you want to use fathom(https://usefathom.com) for analytics, add this section
-#[params.fathomAnalytics]
-    #siteID = "ABCDE"
-    # Default value is cdn.usefathom.com, overwrite this if you are self-hosting
-    #serverURL = "analytics.example.com"
+    # AMP
+    amp = true
+    ampElements = ["amp-ad","amp-analytics"]
+    themeColor = "#000000"
+    # adsensePublisher = "ca-pub-2011840158703271"
+    googleAnalytics = "UA-163288755-1"
 
 [taxonomies]
   category = "categories"
@@ -98,39 +99,6 @@ disqusShortname = "yourdiscussshortname"
 
 
 [languages] 
-    # [languages.en]
-    #         languagename = "English"
-
-    #         [languages.en.menu]
-
-    #         [[languages.en.menu.main]]
-    #         name = "About"
-    #         weight = 1
-    #         url = "/about/"
-    #         [[languages.en.menu.main]]
-    #         name = "Self"
-    #         weight = 2
-    #         url  = "/self/"
-    #         [[languages.en.menu.main]]
-    #         name = "Dev"
-    #         weight = 3
-    #         url  = "/dev/"
-    #         [[languages.en.menu.main]]
-    #         name = "Money"
-    #         weight = 4
-    #         url  = "/money/"
-    #         [[languages.en.menu.main]]
-    #         name = "Project"
-    #         weight = 5
-    #         url  = "/project/"
-    #         [[languages.en.menu.main]]
-    #         name = "Goal"
-    #         weight = 6
-    #         url  = "/goal/"
-    #         [[languages.en.menu.main]]
-    #         name = "Posts"
-    #         weight = 7
-    #         url  = "/posts/"
     [languages.zh-cn]
         languagename = "Chinese"
         title = "记录我的成长之路"
@@ -171,6 +139,3 @@ disqusShortname = "yourdiscussshortname"
                 name = "文章列表"
                 weight = 7
                 url  = "/posts/"
-
-# GOOGLE GA
-googleAnalytics = "UA-163288755-1"
